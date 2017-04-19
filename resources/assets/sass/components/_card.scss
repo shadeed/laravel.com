@@ -1,0 +1,46 @@
+.cards-wrapper {
+    padding: 2rem 0; 
+    margin: 0; 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 0 0 32%;
+    background: #fff;
+    padding: 0.25rem;
+    margin-bottom: 1.25rem;
+    transition: all 0.25s ease-out;
+    box-shadow: 0 0 0 0 transparent;
+
+    h2 {
+        margin-bottom: 0;
+        color: $color__gray !important;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    time {
+        display: block;
+        color: $color__light_gray;
+        font-size: 0.875rem;
+        margin-bottom: 0.25rem;
+    }
+
+    &:not(:nth-child(3n)) {
+        margin-right: 2%;
+    }
+
+    &:hover {
+        box-shadow: 0 5px 13px 0 rgba(#000, 0.15);
+    }
+}
+
+.card__meta {
+    padding: 0 0.5rem 0.5rem;
+}

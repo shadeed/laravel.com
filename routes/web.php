@@ -24,6 +24,11 @@ Route::get('partners', function () {
     return view('partners')->with(['currentVersion' => DEFAULT_VERSION]);
 });
 
+Route::get('guides', function () {
+    return view('guides')->with(['currentVersion' => DEFAULT_VERSION]);
+});
+
+
 Route::get('/partner/tighten', function () {
     return view('community-partner-tighten');
 });
