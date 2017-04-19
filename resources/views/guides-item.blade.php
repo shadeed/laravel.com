@@ -13,7 +13,7 @@
 </section>
 
 <section>
-    <div class="mw-620px docs guide">
+    <div class="docs guide">
         <article>
         <ul>
         <li><a href="#installation">Installation</a>
