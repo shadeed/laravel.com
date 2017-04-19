@@ -39,6 +39,33 @@
 		}
 	}
 
+	> ul {
+		&:first-of-type {
+			//outline: solid 2px red;
+		}
+
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 1.5;
+		padding-bottom: 50px;
+		border-bottom: 1px solid $color__faint;
+		-webkit-font-smoothing: antialiased;
+		li {
+			&:before {
+				content: "# ";
+				margin-right: .25em;
+				color: $color__salmon;
+				opacity: .3;
+			}
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+
 	li > ul {
 		font-size: 15px;
 		font-weight: 400;
