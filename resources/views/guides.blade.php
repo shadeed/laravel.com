@@ -15,75 +15,51 @@
 </section>
 
 <section class="panel dark">
-    <div class="mw-620px">
-        Add level: beginner, Advanced.. so
+    <div class="mw-620px u-offset-vertical">
         <ul class="cards-wrapper">
             <li class="card">
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
+                <a href="/guides-item">
+                    <img class="card__thumb" src="http://placehold.it/350x200/f2f2f2/666" alt="">
                     <div class="card__meta">
-                        <time>19 April 2017</time>
-                        <h2>Build A Todo List</h2>
+                        <span class="card__level">Beginner</span>
+                        <h2 class="card__title">Build A Todo List</h2>
                     </div>
                 </a>
             </li>
             <li class="card" >
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
+                <a href="/guides-item">
+                    <img class="card__thumb" src="http://placehold.it/350x200/f2f2f2/666" alt="">
                     <div class="card__meta">
-                        <time>31 March 2017</time>
-                        <h2>How to deploy Laravel</h2>
+                        <span class="card__level">Intermediate</span>
+                        <h2 class="card__title">How to deploy Laravel</h2>
                     </div>
                 </a>
             </li>
             <li class="card">
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
+                <a href="/guides-item">
+                    <img class="card__thumb" src="http://placehold.it/350x200/f2f2f2/666" alt="">
                     <div class="card__meta">
-                        <time>13 March 2017</time>
-                        <h2>Getting to know routers</h2>
+                        <span class="card__level">Advanced</span>
+                        <h2 class="card__title">Getting to know routers</h2>
                     </div>
                 </a>
             </li>
             <li class="card">
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
+                <a href="/guides-item">
+                    <img class="card__thumb" src="http://placehold.it/350x200/f2f2f2/666" alt="">
                     <div class="card__meta">
-                        <time>19 April 2017</time>
-                        <h2>How to build a todo List with Laravel</h2>
+                        <span class="card__level">Beginner</span>
+                        <h2 class="card__title">How to build a todo List with Laravel</h2>
                     </div>
                 </a>
             </li>
             <li class="card" >
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
+                <a href="/guides-item">
+                    <img class="card__thumb" src="http://placehold.it/350x200/f2f2f2/666" alt="">
                     <div class="card__meta">
-                        <time>31 March 2017</time>
-                        <h2>How to deploy Laravel</h2>
+                        <span class="card__level">Beginner</span>
+                        <h2 class="card__title">How to deploy Laravel</h2>
                     </div>
-                </a>
-            </li>
-            <li class="card">
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
-                    <div class="card__meta">
-                        <time>13 March 2017</time>
-                        <h2>Getting to know routers</h2>
-                    </div>
-                </a>
-            </li>
-            <li class="card">
-                <a href="#">
-                    <img src="http://placehold.it/350x250/f2f2f2/666" alt="">
-                    <div class="card__meta">
-                        <time>13 March 2017</time>
-                        <h2>Getting to know routers</h2>
-                    </div>
-                </a>
-            </li>
-            <li class="card">
-                <a href="#">
-                    <p>Do you have a suggestion for a tutorial? Let us know!</p>
                 </a>
             </li>
         </ul>

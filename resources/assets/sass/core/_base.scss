@@ -74,6 +74,10 @@ blockquote {
     flex-basis: 33.333333%;
 }
 
+.u-offset-vertical {
+    padding-top: 2rem !important;
+	padding-bottom: 2rem !important;
+}
 
 @media all and (max-width: 800px) {
     .third {
