@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('body-class', 'community')
+@section('body-class', 'guides')
 
 @section('content')
 
