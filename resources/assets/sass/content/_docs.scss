@@ -127,7 +127,7 @@
 }
 
 .docs blockquote.has-icon {
-    position: relative;
+	line-height: 1.5;
 
     &.video, &.laracast {
         background: rgba(103, 58, 183, 0.62);
@@ -137,13 +137,16 @@
         background: #64B5F6;
     }
 
-    p { padding-left: 40px; }
+	p:empty {
+		display: none;
+	}
 
     .flag {
-        position: absolute;
+		float: left;
         width: 30px;
-        left: 15px;
-        top: 10px;
+		margin-top: 0.35rem;
+		margin-right: 0.5rem;
+
         svg {
             width: 24px;
             height: 24px;
