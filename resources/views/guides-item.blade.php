@@ -15,7 +15,7 @@
     </ul>
 </nav>
 
-<section class="hero">
+<section class="hero hero--guide">
     <div class="container">
         <div class="content">
             <h1>How to build a todo List with Laravel</h1>
