@@ -2,6 +2,7 @@
     padding: 0; 
     margin: 0; 
     list-style: none;
+    margin-bottom: -1rem;
 
     @media (min-width: 550px) {
         display: flex;
@@ -16,6 +17,10 @@
     border-radius: 4px;
     transition: box-shadow 0.25s ease-out;
     box-shadow: 0 0 0 0 transparent;
+
+    a {
+        display: block;
+    }
 
     &:hover {
         box-shadow: 0 5px 13px 0 rgba(#000, 0.15);

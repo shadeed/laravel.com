@@ -3,6 +3,17 @@
 @section('body-class', 'guides')
 
 @section('content')
+<nav id="slide-menu" class="slide-menu" role="navigation">
+    <div class="brand">
+        <a href="/">
+            <img src="/assets/img/laravel-logo-white.png" height="50" alt="Laravel white logo">
+        </a>
+    </div>
+
+    <ul class="slide-main-nav">
+        @include('partials.main-nav')
+    </ul>
+</nav>
 
 <section class="hero">
     <div class="container">
@@ -112,6 +123,16 @@
         <span class="token punctuation">}</span></code></pre>
         <p>Of course, when using <a href="/docs/5.4/homestead">Homestead</a> or <a href="/docs/5.4/valet">Valet</a>, pretty URLs will be automatically configured.</p>
         </article>
+    </div>
+    
+    <div class="docs guide u-offset-vertical">
+        <div class="share">
+            <span class="share__label">Share:</span>
+            <ul>
+                <li class="share__item twitter"><a href="#">Twitter</a></li>
+                <li class="share__item facebook"><a href="#">Facebook</a></li>
+            </ul>
+        </div>
     </div>
 </section>
 
