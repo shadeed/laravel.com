@@ -37,6 +37,9 @@
         <p><a name="server-requirements"></a></p>
         <h3>Server Requirements</h3>
         <p>The Laravel framework has a few system requirements. Of course, all of these requirements are satisfied by the <a href="/docs/5.4/homestead">Laravel Homestead</a> virtual machine, so it's highly recommended that you use Homestead as your local Laravel development environment.</p>
+        <figure>
+            <img src="https://forge.laravel.com/images/ui-preview.png" alt="">
+        </figure>
         <p>However, if you are not using Homestead, you will need to make sure your server meets the following requirements:</p>
         <div class="content-list">
         <ul>
@@ -51,6 +54,10 @@
         <p><a name="installing-laravel"></a></p>
         <h3>Installing Laravel</h3>
         <p>Laravel utilizes <a href="https://getcomposer.org">Composer</a> to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.</p>
+        <figure>
+            <img src="https://forge.laravel.com/images/ui-preview.png" alt="">
+            <figcaption>Image caption will be there. Click <a href="#">here</a> to see full size.</figcaption>
+        </figure>
         <h4>Via Laravel Installer</h4>
         <p>First, download the Laravel installer using Composer:</p>
         <pre class=" language-php"><code class=" language-php">composer <span class="token keyword">global</span> <span class="token keyword">require</span> <span class="token string">"laravel/installer"</span></code></pre>

@@ -151,6 +151,20 @@
 		margin-left: 0;
 		padding: 1rem;
 	}
+
+	figure {
+		margin: 2rem 0;
+
+		img {
+			display: block;
+			max-width: 100%;
+		}
+	}
+
+	figcaption {
+		background: $color__faint;
+		padding: 0.75rem;
+	}
 }
 
 .docs blockquote.has-icon {
